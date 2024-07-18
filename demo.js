@@ -3,7 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const chatarea = document.getElementById("chatarea");
   const tutorialElem = document.getElementById("tutorial");
 
-  tutorialElem.textContent = "enter `/m` to see the messages";
+  tutorialElem.textContent = "";
+  const message  = document.getElementById("inputMsg").placeholder = "enter '/m' to view all the messages"
+
 
   const createMsg = (message) => {
     const messageData = { id: Date.now(), text: message };

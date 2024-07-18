@@ -75,6 +75,7 @@ span {
     margin-left: auto;
     flex-wrap: wrap;
     min-height: 20px;
+    align-items: center;
     padding: 10px;
     border-radius: 10px;
     width: 100%;
